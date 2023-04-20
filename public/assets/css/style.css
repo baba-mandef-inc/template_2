@@ -49,7 +49,7 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 /*-- Google Font --*/
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /*-- Common Style --*/
 *, *::after, *::before {
   box-sizing: border-box;
@@ -61,7 +61,7 @@ body {
   font-size: 14px;
   line-height: 1.75;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu";
   color: #4c4d56;
   outline: none;
   visibility: visible;
@@ -76,7 +76,7 @@ body[dir="rtl"] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #090d2f;
   font-weight: 700;
   margin-top: 0;
@@ -275,7 +275,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title .title {
   font-size: 40px;
   line-height: 54px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -297,7 +297,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title .sub-title {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #005de0;
   letter-spacing: 1px;
@@ -314,7 +314,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title2 .title {
   font-size: 48px;
   line-height: 54px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #333333;
 }
@@ -340,7 +340,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title2 .sub-title {
   font-size: 12px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #a1a1a1;
   text-transform: uppercase;
@@ -350,7 +350,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title2 p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #4c4d56;
   padding: 0 50px;
@@ -366,7 +366,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .section-title3 .title {
   font-size: 48px;
   line-height: 72px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -393,7 +393,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border-radius: 35px;
   display: inline-block;
   background: #ffeeeb;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #ff5538;
   text-transform: uppercase;
@@ -410,7 +410,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding: 0;
   line-height: 33px;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   text-align: center;
   color: #6c7381;
@@ -648,7 +648,7 @@ select {
   color: #ffffff;
   border-radius: 5px;
   font-size: 18px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   height: 60px;
   line-height: 56px;
@@ -831,7 +831,7 @@ select {
 
 .header-menu .main-menu li a {
   font-size: 15px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   text-transform: capitalize;
   color: #090d2f;
@@ -891,7 +891,7 @@ select {
 .header-menu .main-menu li .sub-menu li a {
   padding: 5px 25px;
   font-size: 15px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   display: block;
@@ -959,7 +959,7 @@ select {
   font-size: 10px;
   line-height: 18px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #ababab;
 }
 
@@ -968,7 +968,7 @@ select {
   font-size: 14px;
   line-height: 18px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #090d2f;
 }
 
@@ -1847,7 +1847,7 @@ select {
   display: block;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #ffffff;
   padding: 5px 0px;
   position: relative;
@@ -1954,7 +1954,7 @@ select {
 .tech-hero-section .hero-content p {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #ffffff;
   margin-top: 25px;
@@ -2296,7 +2296,7 @@ select {
 
 .tech-hero-section-3 .hero-content .hero-play-btn .play-btn span {
   font-size: 22px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ffffff;
   margin-left: 10px;
@@ -2340,7 +2340,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2348,7 +2348,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2356,7 +2356,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2364,7 +2364,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2380,7 +2380,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2388,7 +2388,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2396,7 +2396,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2404,7 +2404,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #686f7a;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -2496,7 +2496,7 @@ select {
 .tech-hero-section-4 .hero-content .sub-title {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #ffffff;
   text-transform: uppercase;
@@ -2519,7 +2519,7 @@ select {
 .tech-hero-section-4 .hero-content p {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #ffffff;
   margin-top: 25px;
@@ -2627,7 +2627,7 @@ select {
 .tech-hero-section-5 .hero-content .sub-title {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #ffffff;
   text-transform: uppercase;
@@ -2645,7 +2645,7 @@ select {
 .tech-hero-section-5 .hero-content p {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #ffffff;
   margin-top: 25px;
@@ -2743,7 +2743,7 @@ select {
 .tech-hero-section-6 .hero-content .sub-title {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #ffffff;
   text-transform: uppercase;
@@ -2761,7 +2761,7 @@ select {
 .tech-hero-section-6 .hero-content p {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #ffffff;
   margin-top: 25px;
@@ -2996,7 +2996,7 @@ select {
 .service-section .service-wrap .service-item .service-content p {
   font-size: 14px;
   line-height: 26px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #4c4d56;
   margin-top: 20px;
@@ -3133,7 +3133,7 @@ select {
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -3276,7 +3276,7 @@ select {
 .service-section-3 .service-wrap-3 .service-slider-wrap .service-item .service-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 10px;
@@ -3285,7 +3285,7 @@ select {
 .service-section-3 .service-wrap-3 .service-slider-wrap .service-item .service-content .read-more {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ff5538;
   margin-top: 15px;
@@ -3360,7 +3360,7 @@ select {
 .service-section-4 .service-wrap-4 .service-left .service-list li a {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -3436,7 +3436,7 @@ select {
 .service-section-4 .service-wrap-4 .service-right .service-item .service-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 10px;
@@ -3445,7 +3445,7 @@ select {
 .service-section-4 .service-wrap-4 .service-right .service-item .service-content .read-more {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ff5538;
   margin-top: 20px;
@@ -3676,7 +3676,7 @@ select {
 .about-section .about-wrap .about-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 25px;
@@ -3712,7 +3712,7 @@ select {
 .about-section .about-wrap .about-content .about-author-list .about-author .name {
   font-size: 16px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #090d2f;
   margin-top: 10px;
@@ -3743,7 +3743,7 @@ select {
 .about-section .about-wrap .about-content .about-author-list .about-list ul li {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #090d2f;
 }
@@ -3898,7 +3898,7 @@ select {
 .about-section-2 .about-wrap-2 .about-img .about-img-text .number {
   font-size: 120px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #ffffff;
   display: block;
@@ -3907,7 +3907,7 @@ select {
 .about-section-2 .about-wrap-2 .about-img .about-img-text .text {
   font-size: 24px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #ffffff;
   display: block;
@@ -3934,7 +3934,7 @@ select {
   align-items: flex-start;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -4044,7 +4044,7 @@ select {
 .about-section-3 .about-wrap .about-content-wrap .about-content .experience .number {
   font-size: 180px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #ff5538;
   margin-right: 10px;
@@ -4053,7 +4053,7 @@ select {
 .about-section-3 .about-wrap .about-content-wrap .about-content .experience span {
   font-size: 18px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #333333;
   margin-top: 5px;
@@ -4069,7 +4069,7 @@ select {
 .about-section-3 .about-wrap .about-content-wrap .about-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 35px;
@@ -4177,7 +4177,7 @@ select {
 .about-section-4 .about-wrap .about-content-wrap .about-content .about-author-list .about-list ul li {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
   display: flex;
@@ -4269,7 +4269,7 @@ select {
 .about-section-5 .about-wrap .about-right p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #ffffff;
 }
@@ -4292,7 +4292,7 @@ select {
 .about-section-5 .about-wrap .about-right .about-author .author-text .designation {
   font-size: 12px;
   line-height: 18px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #ffffff;
 }
@@ -4368,7 +4368,7 @@ select {
 .about-section-6 .about-wrap .about-right .about-experience-award .single-item span {
   font-size: 24px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #333333;
   margin-left: 25px;
@@ -4454,7 +4454,7 @@ select {
 .features-section .features-wrap .features-content-wrap .features-content ul .features-item .features-text p {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 10px;
@@ -4463,7 +4463,7 @@ select {
 .features-section .features-wrap .features-content-wrap .features-content .features-link p {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #4c4d56;
   margin-top: 40px;
@@ -4656,7 +4656,7 @@ select {
 .features-section-2 .features-wrap-2 .features-item-wrap .features-item-box .features-item .features-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 10px;
@@ -4754,7 +4754,7 @@ select {
 .features-section-3 .features-wrap-3 .features-content-wrap .single-item .features-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 10px;
@@ -4975,7 +4975,7 @@ select {
 .features-section-7 .features-wrap .features-content p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 30px;
@@ -5120,7 +5120,7 @@ select {
 .counter-section .counter-wrap .counter-item .counter-text span {
   font-size: 50px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
@@ -5134,7 +5134,7 @@ select {
 .counter-section .counter-wrap .counter-item .counter-text p {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #ffffff;
 }
@@ -5236,7 +5236,7 @@ select {
 .counter-section-3 .experience-content .experience span {
   font-size: 24px;
   line-height: 38px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #333333;
   display: block;
@@ -5305,7 +5305,7 @@ select {
 .counter-section-3 .service-content .service-list li a {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -5415,7 +5415,7 @@ select {
 .skill-section .skill-wrap .skill-content-wrap .skill-content-left .experience span {
   font-size: 24px;
   line-height: 38px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #090d2f;
   display: block;
@@ -5523,7 +5523,7 @@ select {
 .skill-section .skill-wrap .skill-img-wrap .skill-img-item .skill-img .skill-img-text .skill-btn {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
   transition: all 0.3s linear;
@@ -5606,7 +5606,7 @@ select {
 .skill-bar-wrap .skill-item .skill-header .skill-percentage span {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #120e1d;
 }
@@ -5831,7 +5831,7 @@ select {
 .skill-section-5 .skill-img-wrap .skill-img-item .skill-img .skill-img-text .skill-btn {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
   transition: all 0.3s linear;
@@ -5946,7 +5946,7 @@ select {
 .testimonial-section .testimonial-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content p {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   text-decoration: underline;
   color: #000c29;
@@ -5982,7 +5982,7 @@ select {
 .testimonial-section .testimonial-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content .testimonial-author-wrap .testimonial-author .author-text .designation {
   font-size: 12px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   display: block;
   color: #005de0;
@@ -6125,7 +6125,7 @@ select {
 .testimonial-section-2 .testimonial-2-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content p {
   font-size: 30px;
   line-height: 48px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #000c29;
 }
@@ -6146,7 +6146,7 @@ select {
 .testimonial-section-2 .testimonial-2-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content .name {
   font-size: 16px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   display: block;
   color: #231e32;
@@ -6156,7 +6156,7 @@ select {
 .testimonial-section-2 .testimonial-2-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content .designation {
   font-size: 12px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   display: block;
   color: #5149f3;
@@ -6244,7 +6244,7 @@ select {
 .testimonial-section-3 .testimonial-wrap-3 .testimonial-slider-wrap .single-testimonial .testimonial-content p {
   font-size: 30px;
   line-height: 44px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -6273,7 +6273,7 @@ select {
 
 .testimonial-section-3 .testimonial-wrap-3 .testimonial-slider-wrap .single-testimonial .testimonial-content .testimonial-author .author-text .designation {
   font-size: 16px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   line-height: 20px;
   color: #ff5538;
@@ -6506,7 +6506,7 @@ select {
 .testimonial-section-6 .testimonial-wrap .testimonial-content-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content p {
   font-size: 26px;
   line-height: 44px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 30px;
@@ -6531,7 +6531,7 @@ select {
 .testimonial-section-6 .testimonial-wrap .testimonial-content-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content .testimonial-author .designation {
   font-size: 12px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
 }
@@ -6586,7 +6586,7 @@ select {
 .testimonial-section-7 .testimonial-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content p {
   font-size: 18px;
   line-height: 32px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #000c29;
   margin-top: 10px;
@@ -6610,7 +6610,7 @@ select {
   display: block;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #231e32;
 }
@@ -6619,7 +6619,7 @@ select {
   display: block;
   font-size: 12px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
 }
@@ -6729,7 +6729,7 @@ select {
 .testimonial-section-8 .testimonial-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content p {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #000c29;
 }
@@ -6758,7 +6758,7 @@ select {
 .testimonial-section-8 .testimonial-wrap .testimonial-slider-wrap .single-testimonial .testimonial-content .testimonial-author .author-text .designation {
   font-size: 12px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   display: block;
   color: #005de0;
@@ -6879,7 +6879,7 @@ select {
 .case-study-slider-wrap .single-case-study .case-study-content .case-study-title span {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-family: 400;
   color: #005de0;
 }
@@ -6897,7 +6897,7 @@ select {
 .case-study-slider-wrap .single-case-study .case-study-content .case-study-text p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-family: 400;
   color: #ffffff;
 }
@@ -7093,7 +7093,7 @@ select {
 .case-study-section-2 .case-study-wrap .case-study-content-wrap .case-study-item .case-study-content span {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
 }
@@ -7125,7 +7125,7 @@ select {
 
 .cta-section .cta-wrap .cta-right .number {
   font-size: 22px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
@@ -7307,7 +7307,7 @@ select {
 .cta-section-3 .cta-wrap-3 .cta-content p {
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #ffffff;
   margin-top: 35px;
@@ -7458,7 +7458,7 @@ select {
   font-size: 14px;
   line-height: 18px;
   border-radius: 5px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: inline-block;
   text-align: center;
   line-height: 12px;
@@ -7492,7 +7492,7 @@ select {
 .single-blog .blog-content .blog-meta span {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #999999;
   margin-right: 15px;
@@ -7520,7 +7520,7 @@ select {
 .single-blog .blog-content p {
   font-size: 14px;
   line-height: 26px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 10px;
@@ -7536,7 +7536,7 @@ select {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #005de0;
   transition: all 0.3s linear;
@@ -7655,7 +7655,7 @@ select {
 .brand-title {
   font-size: 22px;
   font-weight: 600;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #717171;
   margin-top: -7px;
 }
@@ -7834,7 +7834,7 @@ select {
 .team-section .team-wrap .team-content-wrap .single-team .team-content .designation {
   font-size: 16px;
   line-height: 28px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
 }
@@ -7990,7 +7990,7 @@ select {
 .video-section .video-wrap .video-content .video-play a span {
   font-size: 22px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ffffff;
   display: block;
@@ -8034,7 +8034,7 @@ select {
 
 .pricing-section .pricing-wrap .pricing-content-wrap .single-pricing .pricing-badge .title {
   font-size: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   color: #333333;
 }
@@ -8051,7 +8051,7 @@ select {
   line-height: 25px;
   background: #ffd166;
   font-size: 12px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   padding: 0 20px;
@@ -8078,7 +8078,7 @@ select {
 .pricing-section .pricing-wrap .pricing-content-wrap .single-pricing .pricing-price .price {
   font-size: 72px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   display: inline-block;
   color: #005de0;
@@ -8093,7 +8093,7 @@ select {
 .pricing-section .pricing-wrap .pricing-content-wrap .single-pricing .pricing-price .currency {
   font-size: 24px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #005de0;
   display: inline-block;
@@ -8104,7 +8104,7 @@ select {
 .pricing-section .pricing-wrap .pricing-content-wrap .single-pricing .pricing-price p {
   font-size: 20px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #b4b4b4;
   margin-left: 25px;
@@ -8117,7 +8117,7 @@ select {
 .pricing-section .pricing-wrap .pricing-content-wrap .single-pricing .pricing-content .pricing-list li {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #666666;
 }
@@ -8158,7 +8158,7 @@ select {
 .pricing-section .pricing-wrap .pricing-content-wrap .single-pricing .pricing-content .pricing-btn .pricing-contact {
   font-size: 18px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #005de0;
   text-decoration: underline;
@@ -8284,7 +8284,7 @@ select {
 .contact-section .contact-wrap .contact-info ul li .contact-info-item .contact-info-text p {
   font-size: 15px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #ffffff;
 }
@@ -8326,7 +8326,7 @@ select {
 .contact-section .contact-wrap .contact-form .contact-form-wrap .heading-wrap .sub-title {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   color: #ff5538;
@@ -8335,7 +8335,7 @@ select {
 .contact-section .contact-wrap .contact-form .contact-form-wrap .heading-wrap .title {
   font-size: 42px;
   line-height: 54px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -8369,7 +8369,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8377,7 +8377,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8385,7 +8385,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8393,7 +8393,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8408,7 +8408,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8416,7 +8416,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8424,7 +8424,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8432,7 +8432,7 @@ select {
   opacity: 0.95;
   font-size: 14px;
   color: #4c4d56;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -8518,7 +8518,7 @@ select {
 .contact-info-section .contact-info-wrap .single-contact-info .info-content p {
   font-size: 22px;
   line-height: 36px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #005de0;
   text-decoration: underline;
@@ -8579,7 +8579,7 @@ select {
 .contact-form-section .contact-wrap .contact-form-wrap .single-form .form-control::-webkit-input-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -8587,7 +8587,7 @@ select {
 .contact-form-section .contact-wrap .contact-form-wrap .single-form .form-control:-moz-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -8595,7 +8595,7 @@ select {
 .contact-form-section .contact-wrap .contact-form-wrap .single-form .form-control::-moz-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -8603,7 +8603,7 @@ select {
 .contact-form-section .contact-wrap .contact-form-wrap .single-form .form-control:-ms-input-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -8748,7 +8748,7 @@ select {
 .page-banner .title {
   font-size: 60px;
   line-height: 1.25;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: inline-block;
   font-weight: 700;
   color: #ffffff;
@@ -8796,7 +8796,7 @@ select {
 .page-banner .breadcrumb .breadcrumb-item {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
 }
 
@@ -8883,7 +8883,7 @@ select {
 .sidebar-widget .search-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"])::-webkit-input-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #898c94;
   font-weight: 400;
 }
@@ -8891,7 +8891,7 @@ select {
 .sidebar-widget .search-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):-moz-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #898c94;
   font-weight: 400;
 }
@@ -8899,7 +8899,7 @@ select {
 .sidebar-widget .search-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"])::-moz-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #898c94;
   font-weight: 400;
 }
@@ -8907,7 +8907,7 @@ select {
 .sidebar-widget .search-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):-ms-input-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #898c94;
   font-weight: 400;
 }
@@ -8938,7 +8938,7 @@ select {
 
 .sidebar-widget .widget-title .title {
   font-size: 18px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
   display: inline-block;
@@ -8971,14 +8971,14 @@ select {
 .sidebar-widget .recent-posts ul li .post-link .post-text .title {
   font-size: 14px;
   line-height: 16px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   transition: all 0.3s linear;
 }
 
 .sidebar-widget .recent-posts ul li .post-link .post-text .post-meta {
   font-size: 12px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   line-height: 24px;
   color: #838383;
@@ -9006,7 +9006,7 @@ select {
 .sidebar-widget .category .cate-item a {
   display: flex;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #29303c;
   transition: all 0.3s linear;
@@ -9029,7 +9029,7 @@ select {
   border-radius: 50%;
   background: #e4f2f8;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #005de0;
   transition: all 0.3s linear;
@@ -9055,7 +9055,7 @@ select {
   border-radius: 5px;
   padding: 8px 15px;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #666666;
   line-height: 18px;
@@ -9155,7 +9155,7 @@ select {
 .blog-details-post .blog-details-content .blog-quote .blockquote p {
   display: inline;
   font-size: 18px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #333333;
   line-height: 32px;
   font-weight: 600;
@@ -9178,7 +9178,7 @@ select {
 .blog-details-post .blog-details-content .blog-details-text p {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 50px;
@@ -9207,7 +9207,7 @@ select {
 .blog-details-post .blog-details-content .blog-details-tag-share .blog-details-tag .sidebar-widget .label {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
   margin-right: 10px;
@@ -9387,7 +9387,7 @@ select {
 .blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content .date {
   font-size: 12px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #838383;
 }
@@ -9448,7 +9448,7 @@ select {
 .blog-details-post .blog-details-content .comment-wrap .comment-box .comment-items li .single-comment .comment-content p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   margin-top: 5px;
 }
@@ -9487,7 +9487,7 @@ select {
 .blog-details-post .blog-details-content .comment-wrap .comment-form p {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #686f7a;
 }
@@ -9509,7 +9509,7 @@ select {
 .blog-details-post .blog-details-content .comment-wrap .comment-form .comment-form-wrap .single-form .form-control::-webkit-input-placeholder {
   opacity: 0.95;
   font-size: 13px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #9d9d9d;
   font-weight: 400;
 }
@@ -9517,7 +9517,7 @@ select {
 .blog-details-post .blog-details-content .comment-wrap .comment-form .comment-form-wrap .single-form .form-control:-moz-placeholder {
   opacity: 0.95;
   font-size: 13px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #9d9d9d;
   font-weight: 400;
 }
@@ -9525,7 +9525,7 @@ select {
 .blog-details-post .blog-details-content .comment-wrap .comment-form .comment-form-wrap .single-form .form-control::-moz-placeholder {
   opacity: 0.95;
   font-size: 13px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #9d9d9d;
   font-weight: 400;
 }
@@ -9533,7 +9533,7 @@ select {
 .blog-details-post .blog-details-content .comment-wrap .comment-form .comment-form-wrap .single-form .form-control:-ms-input-placeholder {
   opacity: 0.95;
   font-size: 13px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #9d9d9d;
   font-weight: 400;
 }
@@ -9612,7 +9612,7 @@ select {
 .subscribe-section .subscribe-wrap .subscribe-title p {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #ffffff;
   margin-top: 10px;
@@ -9639,7 +9639,7 @@ select {
   opacity: 0.95;
   font-size: 18px;
   color: #93a1a2;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -9647,7 +9647,7 @@ select {
   opacity: 0.95;
   font-size: 18px;
   color: #93a1a2;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -9655,7 +9655,7 @@ select {
   opacity: 0.95;
   font-size: 18px;
   color: #93a1a2;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -9663,7 +9663,7 @@ select {
   opacity: 0.95;
   font-size: 18px;
   color: #93a1a2;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
 
@@ -9702,7 +9702,7 @@ select {
   color: #ffffff;
   padding: 0 40px;
   font-size: 16px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -9823,7 +9823,7 @@ select {
   padding: 0;
   font-size: 22px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #333333;
   font-weight: 700;
   padding-right: 45px;
@@ -9837,7 +9837,7 @@ select {
 
 .faq-section .faq-wrap .faq-accordion .accordion-item .accordion-header .accordion-button .number {
   font-size: 18px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
   width: 40px;
@@ -9968,7 +9968,7 @@ select {
   align-items: flex-start;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #333333;
 }
@@ -10030,7 +10030,7 @@ select {
 .overview-section-2 .overview-wrap .overview-content .text {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
   margin-top: 40px;
@@ -10049,7 +10049,7 @@ select {
 .overview-section-2 .overview-wrap .overview-content .counter-wrap .counter-item span {
   font-size: 50px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #005de0;
 }
@@ -10057,7 +10057,7 @@ select {
 .overview-section-2 .overview-wrap .overview-content .counter-wrap .counter-item p {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4d56;
 }
@@ -10157,7 +10157,7 @@ select {
 .login-register-section .login-register-wrap .login-register-box .login-register-form .single-form .form-control::-webkit-input-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -10165,7 +10165,7 @@ select {
 .login-register-section .login-register-wrap .login-register-box .login-register-form .single-form .form-control:-moz-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -10173,7 +10173,7 @@ select {
 .login-register-section .login-register-wrap .login-register-box .login-register-form .single-form .form-control::-moz-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -10181,7 +10181,7 @@ select {
 .login-register-section .login-register-wrap .login-register-box .login-register-form .single-form .form-control:-ms-input-placeholder {
   opacity: 0.95;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #787884;
   font-weight: 400;
 }
@@ -10329,14 +10329,14 @@ select {
 .widget-info ul li .info-text {
   font-size: 16px;
   line-height: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #c4c5c7;
 }
 
 .footer-widget .footer-widget-title {
   font-size: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
@@ -10351,7 +10351,7 @@ select {
 
 .widget-link .link li a {
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #c4c5c7;
   transition: all 0.3s linear;
@@ -10462,7 +10462,7 @@ select {
 
 .copyright-text p {
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #c4c5c7;
 }

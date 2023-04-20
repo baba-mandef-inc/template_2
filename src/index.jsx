@@ -1,21 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 
 import Home from './pages/Home'
 import About from './pages/About'
-import _404 from './Errors'
+import NotFoundError from './pages/NotFoundError'
+import Init from './layout/Init'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <Router>
+  <Init>
+  <Router>
       <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path='*' element={<_404/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path='/404' element={<NotFoundError />} />
+        <Route path="*" element={<Navigate to="/404" />} />
       </Routes>
-      
     </Router>
+  </Init>
   </React.StrictMode>
 )
