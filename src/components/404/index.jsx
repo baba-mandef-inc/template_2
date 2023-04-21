@@ -1,24 +1,20 @@
 function Error404(){
 
 return(
-  <div>
-  <div
-    className={'section tech-hero-section'}
-    style={{ backgroundImage: `url(assets/images/bg4.jpg)`, backgroundPosition:'center' }}
-  >
-   
   
-    <div className={'container'}>
-      <div className={'row'}>
-        <div className={'col-xl-6'}>
-          <div className={'hero-content'}>
-              <div></div>
-            </div>
-          </div>
-        </div>
+
+  <div className={'section case-study-section section-padding'} id="projects">
+  <div className={'container'}>
+    <div className={'case-study-wrap'}>
+      <div className={'section-title text-center'}>
+        <img src="assets/images/errorr.svg" alt="" />
+        <h6 className="pt-5">
+        Oups ! You seem to be lost. Go back to the <a href="/" style={{color:'#4186e7'}}>homepage</a>
+        </h6>
       </div>
     </div>
   </div>
+</div>
 
 )
 
