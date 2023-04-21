@@ -7,30 +7,42 @@ function Header(){
             <div class="container">
 
             
-                <div class="header-wrap">
+                <div className="header-wrap">
 
-                    <div class="header-logo">
+                    <div className="header-logo">
                         <a href="/"><img src="assets/images/logo.png" alt=""/></a>
                     </div>
 
-                    <div class="header-menu d-none d-lg-block">
-                        <ul class="main-menu">
-                            <li class="active-menu">
+                    <div className="header-menu d-none d-lg-block">
+                        <ul className="main-menu">
+                          {/*   <li class="active-menu">
                                 <a href="/">Home</a>
                                 
-                            </li>
-                            <li>
+                            </li> */}
+                            <li><a href="/" className="active-menu">Home</a>
+                                <ul class="sub-menu">
+                                <li>
                                 <a href="/#about">About Us</a>
                             </li>
-                           
-                            <li><a href="#">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog Grid</a></li>
-                                    <li><a href="blog-standard.html">Latest News</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+
+                            <li>
+                                <a href="/#services">What we do ?</a>
+                            </li>
+
+                            <li>
+                                <a href="/#projects">Latest projects</a>
+                            </li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
+                         
+                           
+                            <li><a href="/projects">Projects</a> </li>
+
+                            <li><a href="/blog">Blog</a>
+                               
+                            </li>
+
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
 
@@ -42,12 +54,12 @@ function Header(){
                             </div>
                             <div class="info-text">
                                 <span>Free Consultant</span>
-                                <span class="number"><a href="#">+36 55 540 069</a></span>
+                                <span class="number"><a href="tel:+33656744389">+33 6 56 74 43 89</a></span>
                             </div>
                         </div>
                      
 
-
+{/* 
                         <div className={"header-search"}>
                             <a className={"search-btn"} href="#"><i className={"flaticon-loupe"}></i></a>
                             <div className={"search-wrap"}>
@@ -62,11 +74,11 @@ function Header(){
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     
 
                     
-                        <div className="header-cart dropdown">
+                      {/*   <div className="header-cart dropdown">
                             <button class="cart-btn" data-bs-toggle="dropdown">
                                 <i class="flaticon-shopping-cart"></i>
                                 <span class="count">0</span>
@@ -125,7 +137,7 @@ function Header(){
                             </div>
 
                         </div>
-
+ */}
                         <div class="header-toggle d-lg-none">
                             <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
                                 <span></span>
@@ -152,38 +164,32 @@ function Header(){
 <div class="offcanvas-body">
     <div class="offcanvas-menu">
         <ul class="main-menu">
-            <li class="active-menu">
-                <a href="index-2.html">Home</a>
-                <ul class="sub-menu">
-                    <li class="active"><a href="index-2.html">Home One</a></li>
-                    <li><a href="index-3.html">Home Two</a></li>
-                    <li><a href="index-4.html">Home Three</a></li>
-                    <li><a href="index-5.html">Home Four</a></li>
-                    <li><a href="index-6.html">Home Five</a></li>
-                    <li><a href="index-7.html">Home Six</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="about.html">Aboute Us</a>
-            </li>
-            <li><a href="#">Pages</a>
-                <ul class="sub-menu">
-                    <li><a href="team.html">Our Team</a></li>
-                    <li><a href="service.html">Service</a></li>
-                    <li><a href="why-choose.html">Why Choose Us</a></li>
-                    <li><a href="testimonial.html">Testimonial</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="login-register.html">Login & Register</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Blog</a>
-                <ul class="sub-menu">
-                    <li><a href="blog.html">Blog Grid</a></li>
-                    <li><a href="blog-standard.html">Latest News</a></li>
-                    <li><a href="blog-details.html">Blog Details</a></li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
+          
+        <li><a href="/" className="active-menu">Home</a>
+                                <ul class="sub-menu">
+                                <li>
+                                <a href="/#about">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="/#services">What we do ?</a>
+                            </li>
+
+                            <li>
+                                <a href="/#projects">Latest projects</a>
+                            </li>
+                                </ul>
+                            </li>
+                         
+                           
+                            <li><a href="/projects">Projects</a> </li>
+
+                            <li><a href="/blog">Blog</a>
+                               
+                            </li>
+
+                            <li><a href="/contact">Contact</a></li>
+
         </ul>
     </div>
 </div>
