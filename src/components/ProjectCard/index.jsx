@@ -45,9 +45,9 @@ function ProjectCard() {
                       Let's Play is an amazing app for esport an gaming fans.
                       This app helps you to interact with your favorites gamers
                       and your gaming friends around the world. Chatting, News
-                      Feed, Virtual Esport Stadium, and Beting on your favorites
-                      gamers team match. What are you waiting for to join the
-                      ship ?
+                      Feed, Virtual Esport Stadium, and Beting are this app main features.
+                      <b><br /> What are you waiting for to join the
+                      ship ?</b>
                     </p>
                   </div>
                 </div>
@@ -68,8 +68,10 @@ function ProjectCard() {
                     <p>
                       Ely art it's a mobile movies streaming application. This
                       app provide you with a huge collection of african content
-                      producer and realisator movies and shows. What are you
-                      waiting for to chill in front on an amazing movie ?
+                      producer and realisator movies and shows. 
+                      <b> <br /> What are you
+                      waiting for to chill watching an amazing movie ?
+                      </b>
                     </p>
                   </div>
                 </div>
@@ -90,9 +92,12 @@ function ProjectCard() {
                     <div className={'case-study-text'}>
                       <p>
                         SousAnonyMoi is a youtube channel whose content is
-                        entirely produced by our team. What are you waiting for
-                        to join this youtube channel that offers you anonymous
-                        real life situations that are worthy of a movie?
+                        entirely produced by our team.  This youtube channel offers you a lot of
+                        real-life stories worthy of a movie.
+                        <b> 
+                          <br />
+                        What are you waiting for to discover the AnonyMoiVerse ?
+                        </b>
                       </p>
                     </div>
                   </div>
