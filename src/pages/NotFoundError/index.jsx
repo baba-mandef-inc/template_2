@@ -1,6 +1,7 @@
 import Error404 from "../../components/404"
 
 
+
 function NotFoundError() {
   return (
    <div>
@@ -8,5 +9,6 @@ function NotFoundError() {
    </div>
   )
 }
+
 
 export default NotFoundError
