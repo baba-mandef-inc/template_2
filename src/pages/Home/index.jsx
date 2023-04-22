@@ -4,7 +4,8 @@ import Banner from "../../components/Banner"
 import ServiceCard from "../../components/ServiceCard";
 import AboutCard from "../../components/AboutCard";
 import ProjectCard from "../../components/ProjectCard";
-/* import TeamCard from "../../components/TeamCard";  */
+import TeamCard from "../../components/TeamCard"; 
+import BlogCard from "../../components/BlogCard";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,11 +19,14 @@ function Home() {
   )
   return (
     <div>
+
       <Banner/>
       <ServiceCard/>
       <AboutCard/>
       <ProjectCard/>
-      {/* <TeamCard/>  */}
+      <TeamCard/>
+      <BlogCard/>
+
     </div>
   )
 }
