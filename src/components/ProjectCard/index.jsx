@@ -27,7 +27,7 @@ function ProjectCard() {
       <div className="case-study-slider-wrap">
         <div className="swiper-container case-study-active">
           <Swiper
-           
+             
             className="mySwiper"
             cssMode={true}
             loop={true}
