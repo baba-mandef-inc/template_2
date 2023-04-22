@@ -2,7 +2,7 @@ function Footer(){
 
     return(
         <div>
-        <div class="section footer-section" style={{backgroundImage: `url(/assets/images/bg/footer-bg.jpg)`}}>
+        <div class="section footer-section mt-5" style={{backgroundImage: `url(/assets/images/bg/footer-bg.jpg)`}}>
 
             <div class="container">
                 <div class="footer-widget-wrap">
