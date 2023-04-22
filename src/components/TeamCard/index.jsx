@@ -32,16 +32,33 @@ function TeamCard() {
 
                 slidesPerView={3}
            
-                  modules={[Navigation, Pagination, Mousewheel , Keyboard]}
+                  modules={[ Pagination, Mousewheel , Keyboard, Navigation]}
 
               
-                
+                 breakpoints={{
+          400: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
 
                   
                   className="mySwiper"
                   cssMode={true}
-                  loop={true}
                   navigation={true}
+                  
                   pagination={true}
                   mousewheel={true}
                   keyboard={true}
