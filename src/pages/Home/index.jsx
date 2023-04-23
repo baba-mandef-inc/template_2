@@ -6,6 +6,7 @@ import AboutCard from "../../components/AboutCard";
 import ProjectCard from "../../components/ProjectCard";
 import TeamCard from "../../components/TeamCard"; 
 import BlogCard from "../../components/BlogCard";
+import ContactForm from "../../components/ContactForm";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -26,6 +27,7 @@ function Home() {
       <ProjectCard/>
       <TeamCard/>
       <BlogCard/>
+      <ContactForm/>  
 
     </div>
   )
