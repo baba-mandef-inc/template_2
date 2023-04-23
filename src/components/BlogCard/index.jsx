@@ -16,18 +16,18 @@ function BlogCard(){
                                 {/* <!-- Single Blog Start --> */}
                                 <div className="single-blog">
                                     <div className="blog-img">
-                                        <a href="blog-details.html"><img src="assets/images/blog/blog-1.jpg" alt=""></img></a>
+                                        <a href="blog-details.html"><img src="assets/images/blog/fl.png" alt=""></img></a>
                                         <div className="top-meta">
-                                            <span className="date"><span>08</span>Aug</span>
+                                            <span className="date"><span>12</span>Apr</span>
                                         </div>
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <span><i className="fas fa-user"></i> <a href="#">Andrew Paker</a></span>
-                                            <span><i className="far fa-comments"></i> 0 Comments</span>
+                                            <span><i className="fas fa-user"></i> <a href="#">Nelson Houngbedji</a></span>
+                                            <span><i className="far fa-comments"></i> 20 Comments</span>
                                         </div>
-                                        <h3 className="title"><a href="blog-details.html">Who Needs Extract Value From Data?</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote.</p>
+                                        <h3 className="title"><a href="blog-details.html">Create a weather app with flutter</a></h3>
+                                       
                                     </div>
                                     <div className="blog-btn">
                                         <a className="blog-btn-link" href="blog-details.html">Read Full Article <i className="fas fa-long-arrow-alt-right"></i></a>
@@ -39,18 +39,18 @@ function BlogCard(){
                               {/*   <!-- Single Blog Start --> */}
                                 <div className="single-blog">
                                     <div className="blog-img">
-                                        <a href="blog-details.html"><img src="assets/images/blog/blog-2.jpg" alt=""></img></a>
+                                        <a href="blog-details.html"><img src="assets/images/blog/cr.jpeg" alt=""></img></a>
                                         <div className="top-meta">
                                             <span className="date"><span>10</span>Aug</span>
                                         </div>
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <span><i className="fas fa-user"></i> <a href="#">Andrew Paker</a></span>
-                                            <span><i className="far fa-comments"></i> 0 Comments</span>
+                                            <span><i className="fas fa-user"></i> <a href="#">Crispus Fonteclounon</a></span>
+                                            <span><i className="far fa-comments"></i> 20 Comments</span>
                                         </div>
-                                        <h3 className="title"><a href="blog-details.html">Easy and Most Powerful Server and Platform.</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote.</p>
+                                        <h3 className="title"><a href="blog-details.html">How to compress a video without quality loss</a></h3>
+                                       
                                     </div>
                                     <div className="blog-btn">
                                         <a className="blog-btn-link" href="blog-details.html">Read Full Article <i className="fas fa-long-arrow-alt-right"></i></a>
@@ -62,18 +62,18 @@ function BlogCard(){
                                {/*  <!-- Single Blog Start --> */}
                                 <div className="single-blog">
                                     <div className="blog-img">
-                                        <a href="blog-details.html"><img src="assets/images/blog/blog-3.jpg" alt=""></img></a>
+                                        <a href="blog-details.html"><img src="assets/images/blog/jk.jpeg" alt=""></img></a>
                                         <div className="top-meta">
                                             <span className="date"><span>08</span>Aug</span>
                                         </div>
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <span><i className="fas fa-user"></i> <a href="#">Andrew Paker</a></span>
-                                            <span><i className="far fa-comments"></i> 0 Comments</span>
+                                            <span><i className="fas fa-user"></i> <a href="#">Nelson Houngbedji</a></span>
+                                            <span><i className="far fa-comments"></i> 5 Comments</span>
                                         </div>
-                                        <h3 className="title"><a href="blog-details.html">Back up your database, store in a safe</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote.</p>
+                                        <h3 className="title"><a href="blog-details.html">10 amazing mobile apps ideas to learn flutter fast</a></h3>
+                                        
                                     </div>
                                     <div className="blog-btn">
                                         <a className="blog-btn-link" href="blog-details.html">Read Full Article <i className="fas fa-long-arrow-alt-right"></i></a>
