@@ -17,7 +17,7 @@ function Footer(){
                                                 <i class="flaticon-phone-call"></i>
                                             </div>
                                             <div class="info-text">
-                                                <span><a href="d">+91 458 654 528</a></span>
+                                                <span><a href="tel:+33656744389">+33 6 56 74 43 89</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -25,7 +25,7 @@ function Footer(){
                                                 <i class="far fa-envelope-open"></i>
                                             </div>
                                             <div class="info-text">
-                                                <span><a href="d">info@example.com</a></span>
+                                                <span><a href="d">info@kreativ-inc.com</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -33,7 +33,7 @@ function Footer(){
                                                 <i class="flaticon-pin"></i>
                                             </div>
                                             <div class="info-text">
-                                                <span>60 East 65th Street, NY</span>
+                                                <span>Rue des oliviers, Poitiers</span>
                                             </div>
                                         </li>
                                     </ul>
@@ -46,10 +46,10 @@ function Footer(){
 
                                 <div class="widget-link">
                                     <ul class="link">
-                                        <li><a href="s">Terms & Conditions</a></li>
-                                        <li><a href="s">About Company</a></li>
-                                        <li><a href="s">Payment Gatway</a></li>
-                                        <li><a href="d">Policy</a></li>
+                                        <li><a href="/#">Terms & Conditions</a></li>
+                                        <li><a href="/#about">About Company</a></li>
+                            
+                                        <li><a href="/#">Policy</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,10 +60,10 @@ function Footer(){
 
                                 <div class="widget-link">
                                     <ul class="link">
-                                        <li><a href="s">Data Security</a></li>
-                                        <li><a href="f">IT Managment</a></li>
-                                        <li><a href="f">Outsourcing</a></li>
-                                        <li><a href="f">Networking</a></li>
+                                        <li><a href="/#">Software development</a></li>
+                                        <li><a href="/#">Graphics Design</a></li>
+                                        <li><a href="/#">Content Production</a></li>
+                                        <li><a href="/#">IT consulting</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ function Footer(){
                                         <li><a href="d">Documentation</a></li>
                                         <li><a href="d">Support</a></li>
                                         <li><a href="s">FAQS</a></li>
-                                        <li><a href="d">Download</a></li>
+                                      
                                     </ul>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ function Footer(){
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="copyright-text">
-                                    <p>© Copyrights 2022 Techmax All rights reserved. </p>
+                                    <p>© Copyrights 2023 Kreativ.inc All rights reserved. </p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
