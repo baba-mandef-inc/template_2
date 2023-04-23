@@ -15,7 +15,7 @@ function TeamCard() {
   return (
     <>
       {/*    <!-- Team Start --> */}
-      <div className="section team-section section-padding">
+      <div className="section team-section section-padding" id='team'>
         <div className="container">
           {/*  <!-- Team Wrap Start --> */}
           <div className="team-wrap">
@@ -110,7 +110,7 @@ function TeamCard() {
                     <div class="single-team">
                       <div class="team-img">
                         <a href="team.html">
-                          <img src="assets/images/team/team-2.jpg" alt=""></img>
+                          <img src="assets/images/team/team-2.png" alt=""></img>
                         </a>
                       </div>
                       <div class="team-content">
