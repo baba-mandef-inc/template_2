@@ -3,7 +3,7 @@ function Banner() {
     <div>
       <div
         className={'section tech-hero-section'}
-        style={{ backgroundImage: `url(assets/images/dev2.jpg)` }}
+        style={{ backgroundImage: `url(assets/images/hero-2.jpg)` }}
       >
         <div className={'shape-1'}></div>
         {/*   <div className={'shape-2'}></div>
